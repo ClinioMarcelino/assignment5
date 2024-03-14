@@ -118,7 +118,7 @@ public class Node {
 
 	
 	/**
-	 * Method for verifying if the two classes have the same values for <b>x</b> and <b>y</b>
+	 * Method for verifying if the two instances of the object Node have the same values for <b>x</b> and <b>y</b>
 	 * @param nd -> instance of Node
 	 * @return true if equals<br>false if different
 	 */
@@ -128,6 +128,9 @@ public class Node {
 		return false;
 	}
 
+	/**
+	 * @Overrides toString() in Object class
+	 */
 	public String toString() {
 		return "Node: x= " + x + ", y= " + y;
 	}
